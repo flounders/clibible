@@ -206,6 +206,9 @@ void usage(char *progName)
     cout << "              -2  - multiword\n";
     cout << "              -3  - entryAttrib (eg. Word//Lemma/G1234/)\n";
     cout << "              -4  - Lucene\n";
+
+    cout << endl;
+    cout << progName << " -m [MOD] \"Matthew 4:4\"\n";
 }
 
 void percentUpdate(char percent, void *userData)
